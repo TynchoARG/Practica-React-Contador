@@ -1,0 +1,63 @@
+.btn {
+  font-size: 2rem;
+}
+
+.btn2 {
+  font-size: 1rem;
+  width: 30px;
+  height: 30px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.contenedor-boton-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.contenedor-boton-vertical {
+  display:flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.columna-botones {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.btn3 {
+  min-width: 30px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.btn-reset {
+  height: 30px;
+}
+
+.numero-contador {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* La caja contenedora de cada tipo de contador */
+.card-contador {
+  with: 100px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Para la fuente del título principal */
+.contenedor-general-contadores h1 {
+  margin-bottom: 24px;
+  color: #333;
+}
